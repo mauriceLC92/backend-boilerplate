@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "types": ["node"],
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "resolveJsonModule": true
+  },
+}
