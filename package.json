@@ -21,11 +21,18 @@
   },
   "homepage": "https://github.com/mauriceLC92/cape-town-clock#readme",
   "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "@types/dotenv": "^6.1.1",
     "@types/express": "^4.17.0",
+    "@types/hapi__joi": "^15.0.3",
     "@types/node": "^12.7.1",
+    "@types/pg": "^7.4.14",
+    "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "helmet": "^3.20.0",
+    "knex": "^0.19.1",
     "passport": "^0.4.0",
+    "pg": "^7.12.1",
     "typescript": "^3.5.3"
   },
   "devDependencies": {
