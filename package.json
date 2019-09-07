@@ -41,11 +41,17 @@
     "typescript": "^3.5.3",
     "uuid": "^3.3.3"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.6.0",
     "@typescript-eslint/parser": "^1.6.0",
     "eslint": "^5.16.0",
-    "ts-node": "^7.0.1",
-    "nodemon": "^1.18.11"
+    "husky": "^3.0.5",
+    "nodemon": "^1.18.11",
+    "ts-node": "^7.0.1"
   }
 }
