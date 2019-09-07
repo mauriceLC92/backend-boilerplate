@@ -8,7 +8,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .ts,.js --cache .",
     "lint-fix": "eslint --ext .ts,.js --fix --cache .",
-    "start": "nodemon"
+    "start": "nodemon",
+    "db:migrate:latest": "knex --knexfile shared/config/db/knexfile.js migrate:latest",
+    "db:migrate:rollback": "knex --knexfile shared/config/db/knexfile.js migrate:rollback",
+    "db:migrate:make": "knex --knexfile shared/config/db/knexfile.js migrate:make $*",
+    "db:seed:run": "node -r ts-node/register/transpile-only ./shared/config/db/seed.ts"
   },
   "repository": {
     "type": "git",
