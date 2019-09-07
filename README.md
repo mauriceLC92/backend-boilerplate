@@ -6,12 +6,14 @@ It tries to conform to the philiosohpies set out by https://12factor.net/
 
 It is meant to be easy to clone and get going with.
 
-// todo
+@todo
 Add section on folder structure and how the flow from domain layer to actions to http works and reasoning for it
 
-// Mention section on use of database and knex - Add sections on seed files and migrations
+@todo
+Mention section on use of database and knex - Add sections on seed files and migrations
 
-
+@todo
+Make this read me pretty :)
 
 
 
