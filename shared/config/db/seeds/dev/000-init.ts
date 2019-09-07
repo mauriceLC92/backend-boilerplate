@@ -11,7 +11,7 @@ const clearData = async (knex: Knex) => {
       AND table_name NOT LIKE 'knex%';
   `);
 
-  const tableNames = result.rows.map(r => r.table_name);
+  const tableNames = result.rows.map((r: any) => r.table_name);
 
   if (tableNames.length > 0) {
     await knex.raw(`TRUNCATE TABLE ${tableNames.map(() => '??').join(',')}`, [...tableNames]);
