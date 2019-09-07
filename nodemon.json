@@ -1,5 +1,5 @@
 {
   "ext": "ts js yaml html json mjml",
-  "exec": "node --inspect -r ts-node/register ./src/hello-world.ts",
+  "exec": "node --inspect -r ts-node/register ./server.ts",
   "ignore": ["dist/*"]
 }

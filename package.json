@@ -1,5 +1,5 @@
 {
-  "name": "cape-town-clock",
+  "name": "backend-boilerplate",
   "version": "1.0.0",
   "description": "A public API describing the time habits of Capetonians",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mauriceLC92/cape-town-clock.git"
+    "url": "git+https://github.com/mauriceLC92/backend-boilerplate.git"
   },
   "author": "Maurice Le Cordier",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mauriceLC92/cape-town-clock/issues"
+    "url": "https://github.com/mauriceLC92/backend-boilerplate/issues"
   },
-  "homepage": "https://github.com/mauriceLC92/cape-town-clock#readme",
+  "homepage": "https://github.com/mauriceLC92/backend-boilerplate#readme",
   "dependencies": {
     "@hapi/joi": "^15.1.0",
     "@types/dotenv": "^6.1.1",
@@ -27,13 +27,15 @@
     "@types/hapi__joi": "^15.0.3",
     "@types/node": "^12.7.1",
     "@types/pg": "^7.4.14",
+    "body-parser": "^1.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "helmet": "^3.20.0",
     "knex": "^0.19.1",
     "passport": "^0.4.0",
     "pg": "^7.12.1",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.6.0",
