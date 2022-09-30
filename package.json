@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/mauriceLC92/backend-boilerplate#readme",
   "dependencies": {
-    "@hapi/joi": "^15.1.0",
+    "@hapi/joi": "^15.1.1",
     "@types/dotenv": "^6.1.1",
     "@types/express": "^4.17.0",
     "@types/hapi__joi": "^15.0.3",
